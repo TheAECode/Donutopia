@@ -1,0 +1,76 @@
+body {
+    background-image: url('images/Boda donut.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+h1 {
+    color: #FF8E9E;
+    font-family: 'Bungee', cursive;
+    text-shadow: 10px 10px 10px #000;
+    text-align: center;
+}
+
+
+h2 {
+    color: #EEEEEE;
+    font-family: 'Playfair Display SC', serif;
+    text-shadow: 5px 5px 5px #000;
+
+    text-align: center;
+
+
+
+}
+
+.container-fluid {
+    padding-top: 16%;
+    margin-right: 20px;
+    padding-right: 60%;
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 4.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-brand {
+    margin-left: 20px;
+    color: #EEEEEE;
+    font-family: 'Bungee', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 50px;
+    font-size: 1.5rem;
+
+}
+
+.nav-links a {
+    color: #EEEEEE;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+
+.nav-links:hover {
+    color: pink;
+}
